@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 /**
  * This class provides a solution to the Leet problem TwoSum.
  *
- * @author Rimmy UUddin
+ * @author Rimmy Uddin
  * @version 1.0
  */
 public class TwoSum {
