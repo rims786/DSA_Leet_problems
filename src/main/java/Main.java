@@ -1,4 +1,6 @@
 import com.rimdome.dsa.leet1.PalindromeNumber;
+
+import com.rimdome.dsa.leet1.RomanToIntegerConverter;
 import com.rimdome.dsa.leet1.TwoSum;
 
 public class Main {
@@ -8,7 +10,20 @@ public class Main {
 
 
 
-		/*
+
+        // Example usage of RomanToInteger class
+        RomanToIntegerConverter romanToInteger = new RomanToIntegerConverter();
+
+        int result = 0;
+        try {
+            result = romanToInteger.convert("MCMXCIV");
+        } catch (RomanToIntegerConverter.InvalidRomanNumeralException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("Converted value: " + result);
+
+
+	/*
         // Example usage of TwoSum class
 	        TwoSum twoSum = new TwoSum();
 	        int[] nums = {2, 7, 11, 15};
@@ -19,8 +34,9 @@ public class Main {
         } catch (TwoSum.TwoSumException e) {
             throw new RuntimeException(e);
         }
-        */
+	*/
 
+	/*
         // Example usage of PalindromeNumber class
         PalindromeNumber palindromeNumber = new PalindromeNumber();
         try {
@@ -28,5 +44,8 @@ public class Main {
         } catch (PalindromeNumber.InvalidInputException e) {
             throw new RuntimeException(e);
         }
+
+	*/
+
     }
 }
