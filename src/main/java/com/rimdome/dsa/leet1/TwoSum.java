@@ -14,18 +14,6 @@ public class TwoSum {
 
     private static final Logger logger = Logger.getLogger(TwoSum.class.getName());
 
-    public static void main(String[] args) {
-        TwoSum twoSum = new TwoSum();
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
-        try {
-            int[] result = twoSum.twoSum(nums, target);
-            System.out.println("Indices of the two numbers that add up to target: " + result[0] + ", " + result[1]);
-        } catch (TwoSumException e) {
-            System.out.println("Error: " + e.getMessage());
-        }
-    }
-
     /**
      * Finds the indices of the two numbers in the given array that add up to the target.
      *
@@ -51,7 +39,7 @@ public class TwoSum {
     /**
      * This custom exception is thrown when no two sum solution is found.
      */
-    class TwoSumException extends Exception {
+    public class TwoSumException extends Exception {
 
 
         public TwoSumException(String message) {
